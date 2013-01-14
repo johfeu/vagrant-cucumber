@@ -7,15 +7,15 @@ Vagrant::Config.run do |config|
 
 	config.ssh.forward_agent = true
 
-	config.vm.network :hostonly, "192.168.23.4"
+	config.vm.network :hostonly, "192.168.23.7"
 
 	config.vm.provision :chef_solo do |chef|
 		chef.cookbooks_path = [ "cookbooks", "site-cookbooks" ]
 
 		#chef.log_level = :debug
 
-		chef.add_recipe "typo3-neos"
-		#chef.add_recipe "chef-oh-my-zsh"
+		chef.add_recipe "cucumber-report"
+		chef.add_recipe "jf-cucumber"
 
 		chef.json = {
 			#'php' => {

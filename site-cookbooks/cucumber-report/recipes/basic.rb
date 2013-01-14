@@ -1,5 +1,5 @@
 #
-# Cookbook:: typo3-neos
+# Cookbook:: cucumber-report
 # Recipe:: basic.rb
 #
 # Copyright 2013, Thomas Layh

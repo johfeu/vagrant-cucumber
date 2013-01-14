@@ -1,0 +1,5 @@
+maintainer       "Johannes Feustel"
+maintainer_email "j a feustel eu"
+license          "MIT"
+description      "Install and configure Cucumber headless"
+version          "0.0.1"

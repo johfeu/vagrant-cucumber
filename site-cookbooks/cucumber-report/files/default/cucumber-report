@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+
+	ServerAdmin typo3neos@localhost.de
+	ServerName cucumber-report
+
+	DocumentRoot /var/www/cucumber-report/Web/
+
+	<Directory /var/www/cucumber-report>
+
+		Options FollowSymLinks
+		AllowOverride FileInfo Options=All,MultiViews
+
+	</Directory>
+</VirtualHost>
