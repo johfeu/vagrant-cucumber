@@ -44,3 +44,8 @@ end
 apache_site "cucumber-report" do
 	enable true
 end
+
+# create docroot
+execute "create empty docroot" do
+	creates "/var/www/cucumber-report/"
+end
