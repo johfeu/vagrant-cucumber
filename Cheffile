@@ -4,6 +4,8 @@ site 'http://community.opscode.com/api/v1'
 
 cookbook "ntp"
 cookbook "openssh"
+cookbook "php"
+cookbook "apache2"
 cookbook "apt"
 cookbook "git"
 cookbook "subversion"
