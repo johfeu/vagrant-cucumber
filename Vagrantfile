@@ -16,6 +16,7 @@ Vagrant::Config.run do |config|
 
 		chef.add_recipe "cucumber-report"
 		chef.add_recipe "jf-cucumber"
+		chef.add_recipe "subversion"
 
 		chef.json = {
 			#'php' => {

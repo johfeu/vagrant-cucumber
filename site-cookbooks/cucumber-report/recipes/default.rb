@@ -46,6 +46,10 @@ apache_site "cucumber-report" do
 end
 
 # create docroot
-execute "create empty docroot" do
-	creates "/var/www/cucumber-report/"
+
+directory "/var/www/cucumber-report/" do
+  owner "www-data"
+  group "vagrant"
+  mode 00775
+  action :create
 end

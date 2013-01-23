@@ -1,9 +1,9 @@
 <VirtualHost *:80>
 
-	ServerAdmin typo3neos@localhost.de
+	ServerAdmin cucumber-report@localhost.de
 	ServerName cucumber-report
 
-	DocumentRoot /var/www/cucumber-report/Web/
+	DocumentRoot /var/www/cucumber-report/
 
 	<Directory /var/www/cucumber-report>
 
