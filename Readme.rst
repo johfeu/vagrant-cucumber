@@ -1,4 +1,4 @@
-TYPO3 Neos Vagrant Box
+Cucumber Vagrant Box
 ==============================
 
 Copyright 2013, Thomas Layh <thomas@layh.com>
@@ -25,12 +25,23 @@ Installation:
 
 4. Add to your host file
 ::
-   192.168.23.4 typo3.neos
+   192.168.23.7 cucumber.report
 
 5. Run "vagrant up"
 
-6. After the setup is complete, open http://typo3.neos/setup and follow the instructions
+6. vagrant ssh
 
-7. Database user and password are "root"
 
-8. Shutdown with "vagrant suspend" and restart with "vagrant resume"
+7. cd [somewhere]/Tests/Cucumber/
+
+8. svn up or git pull ...
+
+9. run
+::
+cucumber
+
+or for html report
+:: 
+cucumber --format html -o /var/www/cucumber-report/index.html
+
+10. open http://cucumber.report/
