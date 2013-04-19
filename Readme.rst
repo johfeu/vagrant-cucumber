@@ -6,7 +6,7 @@ Copyright 2013, Thomas Layh <thomas@layh.com>
 Description:
 --------------
 
-Will install TYPO3 Neos including all required setups for the server environment.
+Will install Cucumber headless including all required setups for the server environment.
 
 
 Installation:
