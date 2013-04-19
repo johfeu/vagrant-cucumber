@@ -38,10 +38,10 @@ Installation:
 
 9. run
 ::
-cucumber
+   cucumber
 
 or for html report
 :: 
-cucumber --format html -o /var/www/cucumber-report/index.html
+   cucumber --format html -o /var/www/cucumber-report/index.html
 
 10. open http://cucumber.report/
