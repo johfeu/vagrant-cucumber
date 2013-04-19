@@ -27,14 +27,21 @@ Installation:
 ::
    192.168.23.7 cucumber.report
 
-5. Run "vagrant up"
+5. Run vagrant
+::
+   vagrant up
 
-6. vagrant ssh
+6. ssh
+::
+   vagrant ssh
 
 
-7. cd [somewhere]/Tests/Cucumber/
-
-8. svn up or git pull ...
+7. update
+:: 
+   cd [somewhere]/Tests/Cucumber/
+   svn up
+   or 
+   git pull ...
 
 9. run
 ::
